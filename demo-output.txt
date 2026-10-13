@@ -1,0 +1,38 @@
+Python 3.12.14
+
+$ python focus_trail.py --task "Build a GHW project" --minutes 60
+FocusTrail — 'Build a GHW project'
+Start: Day 1 09:00
+
+1. Focus Day 1 09:00 - Day 1 09:25 (25 min)
+   Break Day 1 09:25 - Day 1 09:30 (5 min)
+2. Focus Day 1 09:30 - Day 1 09:55 (25 min)
+   Break Day 1 09:55 - Day 1 10:00 (5 min)
+3. Focus Day 1 10:00 - Day 1 10:10 (10 min)
+
+Planned focus: 3 blocks, 60 min focus
+Total break minutes: 10 min
+Total elapsed (including breaks): 1h 10m
+
+$ python focus_trail.py --task "Evening study" --minutes 30 --start 23:50
+FocusTrail — 'Evening study'
+Start: Day 1 23:50
+
+1. Focus Day 1 23:50 - Day 2 00:15 (25 min)
+   Break Day 2 00:15 - Day 2 00:20 (5 min)
+2. Focus Day 2 00:20 - Day 2 00:25 (5 min)
+
+Planned focus: 2 blocks, 30 min focus
+Total break minutes: 5 min
+Total elapsed (including breaks): 0h 35m
+
+$ python focus_trail.py --task "Quick review" --minutes 50 --break 0
+FocusTrail — 'Quick review'
+Start: Day 1 09:00
+
+1. Focus Day 1 09:00 - Day 1 09:25 (25 min)
+2. Focus Day 1 09:25 - Day 1 09:50 (25 min)
+
+Planned focus: 2 blocks, 50 min focus
+Total break minutes: 0 min
+Total elapsed (including breaks): 0h 50m

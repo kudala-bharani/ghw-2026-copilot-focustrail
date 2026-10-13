@@ -1,0 +1,25 @@
+test_cli_blank_task_exits_2_without_traceback (test_focus_trail.TestCli.test_cli_blank_task_exits_2_without_traceback) ... ok
+test_cli_invalid_numeric_input_exits_2_without_traceback (test_focus_trail.TestCli.test_cli_invalid_numeric_input_exits_2_without_traceback) ... ok
+test_cli_malformed_time_exits_2_without_traceback (test_focus_trail.TestCli.test_cli_malformed_time_exits_2_without_traceback) ... ok
+test_cli_valid_run_outputs_schedule (test_focus_trail.TestCli.test_cli_valid_run_outputs_schedule) ... ok
+test_exact_multiple_of_focus (test_focus_trail.TestFocusTrail.test_exact_multiple_of_focus) ... ok
+test_format_and_helpers (test_focus_trail.TestFocusTrail.test_format_and_helpers) ... ok
+test_input_validation (test_focus_trail.TestFocusTrail.test_input_validation) ... ok
+test_malformed_time (test_focus_trail.TestFocusTrail.test_malformed_time) ... ok
+test_midnight_rollover (test_focus_trail.TestFocusTrail.test_midnight_rollover) ... ok
+test_normal_60_minutes (test_focus_trail.TestFocusTrail.test_normal_60_minutes) ... ok
+test_short_session_less_than_focus (test_focus_trail.TestFocusTrail.test_short_session_less_than_focus) ... ok
+test_zero_breaks (test_focus_trail.TestFocusTrail.test_zero_breaks) ... ok
+test_cli_subprocess_bad_values (test_regressions.TestReviewRegressions.test_cli_subprocess_bad_values) ... ok
+test_cli_subprocess_midnight (test_regressions.TestReviewRegressions.test_cli_subprocess_midnight) ... ok
+test_multiple_day_rollover (test_regressions.TestReviewRegressions.test_multiple_day_rollover) ... ok
+test_planner_rejects_invalid_bounds (test_regressions.TestReviewRegressions.test_planner_rejects_invalid_bounds) ... ok
+test_planner_rejects_invalid_types (test_regressions.TestReviewRegressions.test_planner_rejects_invalid_types) ... ok
+test_schedule_invariants (test_regressions.TestReviewRegressions.test_schedule_invariants) ... ok
+test_strict_time_edge_cases (test_regressions.TestReviewRegressions.test_strict_time_edge_cases) ... ok
+test_time_boundaries (test_regressions.TestReviewRegressions.test_time_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.288s
+
+OK
